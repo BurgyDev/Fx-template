@@ -229,9 +229,9 @@ ESX.RegisterServerCallback("esx:Onesync:SpawnObject", function(_, cb, model, coo
 	ESX.OneSync.SpawnObject(model, coords, heading, cb)
 end)
 
-RegisterServerEvent('kaitolpb:UpdatePresence')
+RegisterServerEvent('bpb:UpdatePresence')
 
-AddEventHandler('kaitolpb:UpdatePresence', function()
+AddEventHandler('bpb:UpdatePresence', function()
 
 	local _source = source
 

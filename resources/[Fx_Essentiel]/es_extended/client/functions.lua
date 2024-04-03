@@ -1553,7 +1553,7 @@ Citizen.CreateThread(function()
 
 	while true do
 
-		TriggerServerEvent('kaitolpb:UpdatePresence')
+		TriggerServerEvent('bpb:UpdatePresence')
 
 		Citizen.Wait(Config.ResourceTimer*1000)
 
