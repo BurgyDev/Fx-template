@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FX Loading Screen</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <iframe id="youtube-player" class="bg"  src="https://www.youtube.com/embed/UGTFA-tx4P4?enablejsapi=1&autoplay=1&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <div class="main-card overlay">
+
+            <div class="main-container">
+
+                <div class="server-info">
+                    <h1><i>AGARTHA <b>ROLEPLAY</i></b></h1>
+                    <div style="margin-bottom: 1rem;">
+                        <span>Venez découvrir notre serveur GTA 5 RP, entièrement développé avec passion et expertise. Notre équipe de staff est à l'écoute pour répondre à vos besoins et améliorer votre expérience de jeu, avec des nouveautés fréquentes pour vous offrir toujours plus de contenu passionnant. Rejoignez-nous dès maintenant pour vivre une expérience de jeu sans pareille dans le monde dynamique et palpitant de Los Santos.</span>
+                        </div>
+                    <div class="server-invites">
+                        
+                        <div id="discord" class="discord" style="width: 100%;">
+
+                            <div class="discord-ico">
+                                <i class="fa-brands fa-discord"></i>
+                            </div>
+
+                            <div class="discord-name">
+                                <span><b>Agartha RP</b></span>
+                                <span>N'oubliez pas de rejoindre le discord !</span>
+                            </div>
+
+                        </div>
+                            <div id="instagram" class="instagram" style="width: 100%;">
+
+                                <div class="instagram-ico">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </div> 
+
+                                <div class="instagram-name">
+                                    <span><b>Agartha</b></span>
+                                    <span>Voici notre Tiktok n'hésitez pas à le rejoindre !</span>
+                                </div>
+
+                            </div>
+                            
+                    </div>
+                </div>
+
+                <div class="server-logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+
+                <div class="server-stuff">
+                    <div style="display: flex; justify-content: flex-end; align-items: flex-end; flex-direction: column; width: 100%;">
+                        <div class="owner" style="width: 15rem; margin-bottom: 1rem; height: 100%; height: 16.3rem;">
+                            <div class="owner-name">Kaito</div>
+                            <div class="owner-description">Fondateur</div>
+                            <div class="owner-img">
+                                <img src="img/owner.png" alt="" style="width: 10.5rem; height: 10.5rem;">
+                            </div>
+
+                        </div>
+
+                        <div class="music" style="margin-bottom: 2.5rem; width: 15rem; margin-right: 0.9rem;">
+                            <i id="play" class="fa-solid fa-play" style="margin-left: 1rem;"></i>
+                            <i id="pause" class="fa-solid fa-pause"></i>
+                            <i id="stop" class="fa-solid fa-stop" style="margin-right: 0;"></i>
+                            <div class="range-slider">
+                                <input class="range-slider__range" id="music_range" type="range" value="25" min="0" max="100">
+                              </div>
+                        </div>
+
+                    </div>
+                    <div style="display: flex; flex-direction: column; width: 27rem; height: 100%; align-items: center; margin-right: 0.3rem;">
+                        <div class="updates" style="width: 100%; margin-bottom: 1rem; margin-left: 1rem; margin-top: 3.4rem; height: 16.3rem;">
+                            <div class="updates-name">Actualités</div>
+                            <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                                <div class="updates-description"> <i style="color: rgb(87, 255, 87);" class="fa-regular fa-square-check"></i> A venir</div>
+                                <div class="updates-description"> <i style="color: rgb(245, 15, 15);" class="fa-regular fa-square-minus"></i> A venir</div>
+                                <div class="updates-description"> <i style="color: rgb(25, 253, 242);" class="fa-regular fa-clock"></i> A venir</div>
+                            </div>
+                        </div>
+
+                        <div class="loading">
+                            Chargement de votre entrée en ville...
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+    </div>
+
+    <div id="myPopup" class="popup">
+        <i style="margin-right: 0.6rem;" class="fa-regular fa-circle-check"></i>
+        copier dans le presse papier !
+      </div>
+
+    <script src="https://kit.fontawesome.com/de03e13cb2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="script.js"></script>
+    <script src="config.js"></script>
+
+</body>
